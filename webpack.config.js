@@ -22,7 +22,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     optoins: {
-                        presets: ["babel/presemt-env", "@babel/preset-react"]
+                        presets: ["@babel/presemt-env", "@babel/preset-react"]
                     }
                 }
             }
@@ -31,7 +31,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            title: '2.3',
+            title: '2.3 setup webpack & babel',
             template: 'index.html'
 })
     ]
